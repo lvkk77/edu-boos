@@ -1,0 +1,19 @@
+{
+  "envId": "serverless-2ge2ioqdc8a8bf8b",
+  "version": "2.0",
+  "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
+  "functionRoot": "./functions",
+  "functions": [],
+  "framework": {
+    "name": "Vue",
+    "plugins": {
+      "vue": {
+        "use": "@cloudbase/framework-plugin-website",
+        "inputs": {
+          "buildCommand": "npm run build",
+          "outputPath": "dist"
+        }
+      }
+    }
+  }
+}
